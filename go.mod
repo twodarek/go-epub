@@ -1,11 +1,11 @@
-module github.com/bmaupin/go-epub
+module github.com/twodarek/go-epub
 
-go 1.20
+go 1.24.1
 
 require (
-	github.com/gabriel-vasile/mimetype v1.4.2
-	github.com/gofrs/uuid v4.4.0+incompatible
+	github.com/gabriel-vasile/mimetype v1.4.8
+	github.com/gofrs/uuid/v3 v3.1.2
 	github.com/vincent-petithory/dataurl v1.0.0
 )
 
-require golang.org/x/net v0.13.0 // indirect
+require golang.org/x/net v0.37.0 // indirect
