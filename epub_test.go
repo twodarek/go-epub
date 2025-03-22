@@ -17,8 +17,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bmaupin/go-epub/internal/storage"
-	"github.com/gofrs/uuid"
+	"github.com/gofrs/uuid/v3"
+	"github.com/twodarek/go-epub/internal/storage"
 )
 
 const (
